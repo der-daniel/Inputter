@@ -11,7 +11,7 @@ function focusFirstInput() {
       element.style.visibility != 'hidden' &&
       element.type == 'text') {
       element.focus();
-      console.log(i)
+      // console.log(i);
       break;
     }
   }

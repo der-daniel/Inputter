@@ -30,8 +30,5 @@
       },
       "description": "Focus first input field"
     }
-  },
-  "permissions": [
-    "tabs"
-  ]
+  }
 }
