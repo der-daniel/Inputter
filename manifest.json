@@ -19,6 +19,18 @@
       ]
     }
   ],
+    "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "commands": {
+    "focus": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+L"
+      },
+      "description": "Focus first input field"
+    }
+  },
   "permissions": [
     "tabs"
   ]

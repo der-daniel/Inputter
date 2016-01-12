@@ -1,19 +1,5 @@
-var map = { 17: false, 16: false, 76: false };
-
-document.addEventListener("keydown", function (e) {
-  if (e.keyCode in map) {
-    map[e.keyCode] = true;
-    if (map[16] && map[17] && map[76]) {
-      focusFirstInput();
-    }
-  }
-
-});
-
-document.addEventListener("keyup", function (e) {
-  if (e.keyCode in map) {
-    map[e.keyCode] = false;
-  }
+chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
+    sendResponse(focusFirstInput());
 });
 
 function focusFirstInput() {
