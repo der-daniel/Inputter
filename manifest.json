@@ -16,7 +16,7 @@
     "128": "icons/128.png",
     "256": "icons/256.png",
     "512": "icons/512.png",
-    "1024": "icons/1014.png"
+    "1024": "icons/1024.png"
   },
   "content_scripts": [
     {
